@@ -5,21 +5,31 @@
 # files for the dex VM
 *.dex
 
-# Java class files
+# java class files
 *.class
 
 # generated files
 bin/
 gen/
 out/
+build/
+.gradle/
 
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Eclipse project files
-.classpath
-.project
-
-# IntelliJ Idea / Android Studio project files and directories.
+# idea project files
 *.iml
-.idea/
+.idea
+*.iws
+
+# eclipse project files
+default.properties
+.metadata
+.settings
+.project
+.classpath
+
+# local configuration file (sdk path, etc)
+local.properties
+keystore.properties
+
+# junk
+.DS_Store
